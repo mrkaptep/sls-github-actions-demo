@@ -15,7 +15,7 @@ notesTable:
 cognitoUserPool:
   Type: AWS::Cognito::UserPool
   Properties:
-    UserPoolName: MyNotesUPS-${self:provider.stage}
+    UserPoolName: MyNotesUPCP63333-${self:provider.stage}
 
 # User pool web client
 cognitoUserPoolWebclient:
